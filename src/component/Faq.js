@@ -5,7 +5,7 @@ const Faq = () => {
     return (
         <div className='container'>
             <div className="faq">
-                <h1>Frequently Asked Ques</h1>
+                <h1>Frequently Asked Question</h1>
                 <div className="content">
                     {
                         faqdata.map((element) => {
