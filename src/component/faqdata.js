@@ -1,7 +1,7 @@
 const faqdata=[
     {
         id:1,
-        ques:"How to use this Movie Site",
+        ques:"How to use this Movie Site data",
         ans:"shkjfdh kjshfkjsh kjshkjfh kjshdf kshdk ksdhkdhfksdh khsdkfk"
     },
     {
