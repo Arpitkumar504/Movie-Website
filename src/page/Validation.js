@@ -12,7 +12,7 @@ const Validation = () => {
             cpass: "",
         },
         validationSchema: Yup.object({
-            name: Yup.string().min(4, "Min 4 char").max(15, "Max 15 char").required('Required'),
+            name: Yup.string().min(4, "Min 4 char").max(15, "Max 15 char").required('Please Enter Full Name'),
             email: Yup.string().min(4).max(20).required('Required'),
             pass: Yup.string().min(6).required("Please enter your password"),
             cpass: Yup.string().required().min(6).max(15)
