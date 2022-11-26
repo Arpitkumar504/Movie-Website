@@ -7,7 +7,7 @@ const Todolist = (props) => {
             <ul className='list'>
                 <li>{props.name}</li>
                 <AiFillMinusCircle className='icon' onClick={() => {
-                    props.onSelect(props.id);
+                    props.onSelect(props.id)
                 }} />
             </ul>
         </div>
